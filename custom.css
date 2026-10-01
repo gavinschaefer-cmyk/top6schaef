@@ -8,22 +8,44 @@ https://www.color-hex.com/user/add-palette.php
     --color-primary: #7c4dff;
     --color-accent:  #00b8ff;
     --color-teal: #71e9f4;
-    --color-pink: #f087ad;
-    --color-orange: #ff5a36;
+    --color-pink: #efd1e9;
+    --color-orange: #f6f5f9;
 }
 
 body {
     background: var(--color-pink);
+    
 }
 
 
+
 /********* HERO *********/
 /********* HERO *********/
 /********* HERO *********/
 
+.hero-title {
+    color: var(--color-orange);
+    text-shadow: 2px 2px 5px black
+}
 
 .hero-mesh {
     background: url("https://www.brit.co/media-library/90s-candy-gummy-bears-and-sour-fruit-candies.jpg?id=49841577&width=1200&height=960");
 Background-position: center;
 background-size: cover;
+}
+
+
+/********* NAVBAR *********/
+/********* NAVBAR *********/
+/********* NAVBAR *********/
+
+.site-nav-brand{
+    color: var(--color-black);
+    text-shadow: 2px 2px 5px white
+}
+
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-base-100) 88%, transparent);
+    backdrop-filter: blur(10px);
+    
 }
